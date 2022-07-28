@@ -1,0 +1,21 @@
+.footer {
+  background-color: #010a2b;
+
+  width: 100%;
+
+  position: fixed;
+  bottom: 0;
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+
+    .made-by {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+    }
+  }
+}
