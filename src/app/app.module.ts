@@ -8,6 +8,7 @@ import { FooterComponent } from './components/home/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
+import { ObservablesComponent } from './components/observables/observables.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { rootRouterConfig } from './app.routes';
     InterpolationComponent,
     MenuComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ObservablesComponent
   ],
   imports: [
     BrowserModule,
