@@ -9,6 +9,8 @@ import { HomeComponent } from './components/home/home.component';
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
 import { ObservablesComponent } from './components/observables/observables.component';
+import { ReactiveFormsComponent } from './components/reactive-forms/reactive-forms.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,13 @@ import { ObservablesComponent } from './components/observables/observables.compo
     MenuComponent,
     FooterComponent,
     HomeComponent,
-    ObservablesComponent
+    ObservablesComponent,
+    ReactiveFormsComponent
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
+    FormsModule,
     [RouterModule.forRoot(rootRouterConfig, {useHash: false})]
   ],
   providers: [],
